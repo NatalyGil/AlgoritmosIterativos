@@ -36,7 +36,7 @@ public class Algoritmosactv2 {
         int[] v = new int[n];
         System.out.println("Ingrese los elementos del arreglo:");
         for (int i = 0; i < n; i++) {
-            v[i] = (int) (Math.random() * 10 + 1); // Alternativamente, puedes usar Math.random() para llenar más rápido
+            v[i] = (int) (Math.random() * 10 + 1); // = sc.nextInt(); //puedes usar Math.random() para llenar más rápido 
         }
 
         // Llamar al método sumPair
